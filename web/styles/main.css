@@ -1,0 +1,48 @@
+/*==============Halloween Store Stylesheet================*/
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+
+body{
+    font-family: 'Open Sans';   
+}
+#pumpkin{
+    float:left;
+    height:150px;
+    width:150px;
+}
+#title{
+    color:orange;
+    font-style: italic;
+    text-shadow: 2px 2px black;
+    text-indent:30px;
+    font-size: 45px;
+}
+h2{
+    
+    text-indent:30px;
+    font-size:30px;
+}
+#welcome::first-letter{
+   font-size:300%; 
+}
+#welcome{
+    font-size:40px;
+}
+h3{
+    font-size:30px;
+}
+a{
+    color:orange;
+    font-weight:bold;
+}
+ul li {
+    padding: 5px 0px;
+}
+a:hover{
+    color:green;
+}
+footer{
+    font-size:20px;
+    text-align:center;
+}
