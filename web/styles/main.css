@@ -5,6 +5,18 @@
 
 body{
     font-family: 'Open Sans';   
+    width:800px;
+    background-color:white;
+    background-image:url("images/bats.gif");
+    margin:auto;
+    box-shadow: 10px 10px 5px black;
+}
+#content{
+    margin: auto;
+    border: 10px black;
+}
+#heading{
+    background:linear-gradient(45deg,white,orange);
 }
 #pumpkin{
     float:left;
@@ -12,9 +24,6 @@ body{
     width:150px;
 }
 #title{
-    color:orange;
-    font-style: italic;
-    text-shadow: 2px 2px black;
     text-indent:30px;
     font-size: 45px;
 }
@@ -45,4 +54,5 @@ a:hover{
 footer{
     font-size:20px;
     text-align:center;
+    background:linear-gradient(45deg,white,orange);
 }
