@@ -41,6 +41,36 @@ h2{
   text-indent:10px;
   margin-top:0;
 }
+a{
+  color:orange;
+}
+.nav{
+  margin:0;
+  padding:0;
+}
+.nav li{
+  background-color:black;
+  color:white;
+  display:block;
+  float:left;
+  margin:0;
+  padding:0;
+  text-align:center;
+  width:20%;
+}
+.nav a{
+    color:white;
+    font-weight:bolder;
+    text-decoration:none;
+    
+}
+.nav a:active{
+  color:orange;
+  font-weight:bold;
+}
+.nav a:hover{
+  background-color: #ccc;
+}
 #main{
   float:right;
   margin:0;
@@ -58,23 +88,31 @@ h2{
 h3{
   font-size:22px;
 }
-a{
-  color:orange;
-  font-weight:bold;
-}
-ul{
+
+.side{
   display:inline-block;
   float:left;
   margin:0;
   position:static;
   width:160px;
 }
-ul li {
+.side li {
+  background:orange;
+  border: 1px solid black;
+  color:black;
+  display: block;
+  margin-top:10px;
   padding: 5px 0px;
 }
-a:hover{
+.side a{
+ color:black;
+ font-weight:bolder;
+ text-decoration:none;
+}
+.side a:hover{
   color:green;
 }
+
 footer{
   background:linear-gradient(45deg,black,orange,white);
   border-top: 2px solid black;
