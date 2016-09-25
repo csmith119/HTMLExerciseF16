@@ -67,6 +67,11 @@ a{
 .nav a:hover{
   background-color: #ccc;
 }
+table a{
+  color:black;
+  text-decoration: none;
+    
+}
 table{
   border-collapse:separate;
   border-spacing: 30px 0px;  
