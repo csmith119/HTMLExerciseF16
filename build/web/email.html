@@ -29,13 +29,13 @@
     <li><a href="products/effects.html">Special Effects</a></li>
     <li><a href="products/masks.html">Masks</a></li>
 </ul>
-<div id="main">
+<div id="main"> 
+  <h3>Please enter the following information</h3>
   <form action="subscribe.html" method="get">
-    ////FIX///<legend>Please enter the following information</legend>
-    <p><label>First name:</label><input name="FName" type="text" autofocus /></p>
-    <p><label>Last name:</label><input name="LName" type="text"/></p>
-    <p><label>Email:</label><input name="Email" type="email" /></p>
-    <p><label>Zip Code:</label><input name="Zipcode" type="number" /></p>
+    <p><label>First name:</label><input name="FName" type="text" required autofocus /></p>
+    <p><label>Last name:</label><input name="LName" type="text" required /></p>
+    <p><label>Email:</label><input name="Email" type="email" required /></p>
+    <p><label>Zip Code:</label><input name="Zipcode" type="number" pattern="^[0-9]{5}$" placeholder="#####"  /></p>
     <p><input type="submit" value="Subscribe" /></p>
   </form>				
 </div>
