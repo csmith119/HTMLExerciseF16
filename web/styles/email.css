@@ -13,7 +13,6 @@ body{
   margin:auto;
   width:800px; 
 } 
-
 #heading{
   background:linear-gradient(45deg,white,orange,black);
   border-bottom: 2px solid black;
@@ -101,6 +100,19 @@ h3{
 }
 .side a:hover{
   color:green;
+}
+
+label{
+   margin-right: 20px;
+   text-align: left;
+}
+input{
+   margin: auto;
+}
+
+#button{
+    background-color: orange;
+    border: solid 2px black;
 }
 
 footer{
