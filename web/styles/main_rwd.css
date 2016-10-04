@@ -23,8 +23,6 @@ body{
   border-bottom: 2px solid black;
   display:inline-block;
   width:100%;
-    
-    
 }
 #pumpkin{
   float:left;
@@ -47,6 +45,9 @@ h2{
 }
 a{
   color:orange;
+}
+#mobile_menu{
+  display:none;
 }
 .nav{
   margin:0;
@@ -101,10 +102,15 @@ h3{
   width:20%
   
 }
-.side{
-  display:inline-block;
+#top{
   float:left;
   margin:0;
+}
+#bottom{
+  display:none;
+}
+.side{
+  display:inline-block;
   position:static;
   width:20%;
 }
@@ -133,5 +139,49 @@ footer{
   padding:1.5625em;
   text-align:center;  
 }
+
+@media all and (max-width: 800px){
+html{
+  background-image:none;
+}
+body{
+  box-shadow: none;   
+  font-size: 14.4px;
+}    
+}
+
+@media all and (max-width: 767px){
+    #mobile_menu{
+      display:block;
+    }
+    .nav_menu{
+      display:none;
+    }
+    #main{
+      float:none;
+      margin:.625em auto; 
+      width:95%;
+    }
+    #bottom{
+      clear:both;
+      display: block;
+      margin:.625em auto;  
+    }
+    #top{
+      display:none;
+    }
+}
+@media all and (max-width: 479px){
+    h2{
+      font-size:1.5em;
+    }
+    h3{
+      font-size:1em;
+    }
+    #title{
+      font-size: 2.75em;
+    }
+} 
+
 
 
